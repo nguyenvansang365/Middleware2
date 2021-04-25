@@ -32,6 +32,7 @@ namespace WebUIMiddleware
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //Link demo IIS Express: https://localhost:44370/?page=1&&size=30
             app.Run(MyMiddlewareRun);
             //app.Use(MyMiddlewareUseThenNext);
             app.Map("/map",MyMiddlewareMapTest);
