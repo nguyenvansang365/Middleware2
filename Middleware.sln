@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middleware", "Middleware\Middleware.csproj", "{651429CC-F9EC-45A0-9010-11CCAF4EDAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUIMiddleware", "WebUIMiddleware\WebUIMiddleware.csproj", "{4AA7933D-730B-4018-ADE6-4C3FADA2CB14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{651429CC-F9EC-45A0-9010-11CCAF4EDAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{651429CC-F9EC-45A0-9010-11CCAF4EDAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{651429CC-F9EC-45A0-9010-11CCAF4EDAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{651429CC-F9EC-45A0-9010-11CCAF4EDAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA7933D-730B-4018-ADE6-4C3FADA2CB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA7933D-730B-4018-ADE6-4C3FADA2CB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA7933D-730B-4018-ADE6-4C3FADA2CB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA7933D-730B-4018-ADE6-4C3FADA2CB14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C64E3A7F-4F25-4E69-9DB1-F0A07A202FE8}
+	EndGlobalSection
+EndGlobal
